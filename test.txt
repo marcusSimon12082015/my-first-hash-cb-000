@@ -1,0 +1,23 @@
+
+Challenge I: Instantiating Hashes
+  #my_hash
+    uses the literal constructor to create a hash that contains key/value pairs (FAILED - 1)
+
+Failures:
+
+  1) Challenge I: Instantiating Hashes #my_hash uses the literal constructor to create a hash that contains key/value pairs
+     Failure/Error: expect(my_hash.keys.count).to_not eq(0)
+
+       expected: value != 0
+            got: 0
+
+       (compared using ==)
+     # ./spec/my_first_hash_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+Finished in 0.01953 seconds (files took 0.17613 seconds to load)
+1 example, 1 failure
+
+Failed examples:
+
+rspec ./spec/my_first_hash_spec.rb:7 # Challenge I: Instantiating Hashes #my_hash uses the literal constructor to create a hash that contains key/value pairs
+
