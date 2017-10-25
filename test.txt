@@ -1,19 +1,20 @@
 
 Challenge I: Instantiating Hashes
   #my_hash
-    uses the literal constructor to create a hash that contains key/value pairs (FAILED - 1)
+    uses the literal constructor to create a hash that contains key/value pairs
 
-Failures:
+Challenge II: Hash with Data
+  #shipping_manifest
+    sets a variable called shipping_manifest equal to a hash with key/value pairs describing old-timey items
 
-  1) Challenge I: Instantiating Hashes #my_hash uses the literal constructor to create a hash that contains key/value pairs
-     Failure/Error: expect(my_hash).to be_a(Hash)
-       expected 3 to be a kind of Hash
-     # ./spec/my_first_hash_spec.rb:8:in `block (3 levels) in <top (required)>'
+Challenge III: Retrieving Data
+  #retrieval
+    operates on the shipping_manifest hash to return the value of the 'oil paintings' key
 
-Finished in 0.02464 seconds (files took 0.22907 seconds to load)
-1 example, 1 failure
+Challenge IV: Adding Data
+  #adding
+    operates on the shipping_manifest hash to add a key/value pair
 
-Failed examples:
-
-rspec ./spec/my_first_hash_spec.rb:7 # Challenge I: Instantiating Hashes #my_hash uses the literal constructor to create a hash that contains key/value pairs
+Finished in 0.01072 seconds (files took 0.36779 seconds to load)
+4 examples, 0 failures
 
